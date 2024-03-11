@@ -1,5 +1,5 @@
 {
-  "title": "Ploto Risa Middleware Data Model",
+  "title": "Ploto weather observed schema",
   "description": "Risa's Middleware data model, based on weather observed schema",
   "type": "object",
   "basedOn": "https://raw.githubusercontent.com/smart-data-models/dataModel.Weather/master/WeatherObserved/schema.json",
@@ -8,7 +8,7 @@
       "properties": {
         "id": {
           "type": "string",
-          "description": "Property. Format has to be urn:ngsi-ld:WeatherObserved: "
+          "description": "Property. Format has to be urn:ngsi-ld:WeatherObserved:xxxx "
         },
         "type": {
           "type": "string",
