@@ -283,6 +283,10 @@
           "type": "number",
           "description": "Property. Units:'Millimetre per second (m/s)'"
         },
+        "visibility": {
+          "type": "number",
+          "description": "Property. Units:'meters (m)'"
+        },
         "refDevice": {
           "type": "string",
           "format": "uri",
