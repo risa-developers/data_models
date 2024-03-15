@@ -1,20 +1,20 @@
 {
-  "title": "Ploto hydrological station values schema",
-  "description": "Risa's Middleware data model, for hydrological station values",
+  "title": "Ploto hydrological observation values schema",
+  "description": "Risa's Middleware data model, for hydrological Observation values",
   "type": "object",
   "allOf": [
     {
       "properties": {
         "id": {
           "type": "string",
-          "description": "Property. Format has to be urn:ngsi-ld:HydrologicalStation:xxxx "
+          "description": "Property. Format has to be urn:ngsi-ld:HydrologicalObservation:xxxx "
         },
         "type": {
           "type": "string",
           "enum": [
-            "HydrologicalStation"
+            "HydrologicalObservation"
           ],
-          "description": "Property. NGSI Entity type. It has to be HydrologicalStation"
+          "description": "Property. NGSI Entity type. It has to be HydrologicalObservation"
         },
         "location": {
           "oneOf": [
