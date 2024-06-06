@@ -1,5 +1,5 @@
 {
-  "title": "Risa's Middleware data model, for Air quality observed values",
+  "title": "Risa's Middleware data model, for air quality observed values",
   "description": "An observation of air quality conditions at a certain place and time.",
   "type": "object",
   "allOf": [
