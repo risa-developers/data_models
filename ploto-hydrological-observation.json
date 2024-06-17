@@ -238,13 +238,15 @@
           ],
           "description": "GeoProperty. Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon"
         },
-        "level": {
-          "type": "number",
-          "description": "Property.'"
+        "waterLevel": {
+          "type": "number", 
+          "minimum": 0,
+          "description": "Property. Current water level corresponding to this observation. Units:'metre'."
         },
-        "discharge": {
-          "type": "number",
-          "description": "Property.'"
+        "waterDischargeFlow": {
+          "type": "number", 
+          "minimum": 0,
+          "description": "Property. Units:'cubic metre per seconds'."
         },
         "refDevice": {
           "type": "string",
